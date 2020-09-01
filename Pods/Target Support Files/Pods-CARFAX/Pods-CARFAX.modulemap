@@ -1,0 +1,6 @@
+framework module Pods_CARFAX {
+  umbrella header "Pods-CARFAX-umbrella.h"
+
+  export *
+  module * { export * }
+}

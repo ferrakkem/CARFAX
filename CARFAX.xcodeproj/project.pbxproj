@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79CB9C537B9274652D492067 /* Pods_CARFAX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84378111EA6050476FBF269A /* Pods_CARFAX.framework */; };
+		F320231524FAB41F006185D7 /* CarData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F320231424FAB41F006185D7 /* CarData.swift */; };
+		F39F915524F88CA500B76487 /* CarInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F915324F88CA500B76487 /* CarInfoTableViewCell.swift */; };
+		F39F915624F88CA500B76487 /* CarInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F39F915424F88CA500B76487 /* CarInfoTableViewCell.xib */; };
+		F39F915824F8943400B76487 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F915724F8943400B76487 /* Constants.swift */; };
+		F3E6758924FD5D760022DEAB /* noPicture.png in Resources */ = {isa = PBXBuildFile; fileRef = F3E6758824FD5D760022DEAB /* noPicture.png */; };
+		F3E6758B24FDD4350022DEAB /* Unknown.png in Resources */ = {isa = PBXBuildFile; fileRef = F3E6758A24FDD4350022DEAB /* Unknown.png */; };
+		F3F06FF824F73D4E001F561E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F06FF724F73D4E001F561E /* AppDelegate.swift */; };
+		F3F06FFA24F73D4E001F561E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F06FF924F73D4E001F561E /* SceneDelegate.swift */; };
+		F3F06FFC24F73D4E001F561E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F06FFB24F73D4E001F561E /* ViewController.swift */; };
+		F3F06FFF24F73D4E001F561E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3F06FFD24F73D4E001F561E /* Main.storyboard */; };
+		F3F0700124F73D51001F561E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3F0700024F73D51001F561E /* Assets.xcassets */; };
+		F3F0700424F73D51001F561E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3F0700224F73D51001F561E /* LaunchScreen.storyboard */; };
+		F3F0700E24F73DB8001F561E /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F0700D24F73DB8001F561E /* DataManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		69740F315868A5AB58250D10 /* Pods-CARFAX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CARFAX.debug.xcconfig"; path = "Target Support Files/Pods-CARFAX/Pods-CARFAX.debug.xcconfig"; sourceTree = "<group>"; };
+		84378111EA6050476FBF269A /* Pods_CARFAX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CARFAX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A458BDA96C37B1BB59D3E520 /* Pods-CARFAX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CARFAX.release.xcconfig"; path = "Target Support Files/Pods-CARFAX/Pods-CARFAX.release.xcconfig"; sourceTree = "<group>"; };
+		F320231424FAB41F006185D7 /* CarData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarData.swift; sourceTree = "<group>"; };
+		F39F915324F88CA500B76487 /* CarInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarInfoTableViewCell.swift; sourceTree = "<group>"; };
+		F39F915424F88CA500B76487 /* CarInfoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarInfoTableViewCell.xib; sourceTree = "<group>"; };
+		F39F915724F8943400B76487 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F3E6758824FD5D760022DEAB /* noPicture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noPicture.png; sourceTree = "<group>"; };
+		F3E6758A24FDD4350022DEAB /* Unknown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Unknown.png; sourceTree = "<group>"; };
+		F3F06FF424F73D4E001F561E /* CARFAX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CARFAX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3F06FF724F73D4E001F561E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3F06FF924F73D4E001F561E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F3F06FFB24F73D4E001F561E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3F06FFE24F73D4E001F561E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3F0700024F73D51001F561E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3F0700324F73D51001F561E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3F0700524F73D51001F561E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3F0700D24F73DB8001F561E /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3F06FF124F73D4E001F561E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79CB9C537B9274652D492067 /* Pods_CARFAX.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A83A97106399E161CD33ADEC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69740F315868A5AB58250D10 /* Pods-CARFAX.debug.xcconfig */,
+				A458BDA96C37B1BB59D3E520 /* Pods-CARFAX.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B488F6D1DC877D13645C0CF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84378111EA6050476FBF269A /* Pods_CARFAX.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3F06FEB24F73D4E001F561E = {
+			isa = PBXGroup;
+			children = (
+				F3F06FF624F73D4E001F561E /* CARFAX */,
+				F3F06FF524F73D4E001F561E /* Products */,
+				A83A97106399E161CD33ADEC /* Pods */,
+				B488F6D1DC877D13645C0CF8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F3F06FF524F73D4E001F561E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3F06FF424F73D4E001F561E /* CARFAX.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3F06FF624F73D4E001F561E /* CARFAX */ = {
+			isa = PBXGroup;
+			children = (
+				F3F06FF724F73D4E001F561E /* AppDelegate.swift */,
+				F3F06FF924F73D4E001F561E /* SceneDelegate.swift */,
+				F3F0700F24F73DC2001F561E /* Model */,
+				F3F0700B24F73D68001F561E /* Views */,
+				F3F0700C24F73D73001F561E /* Controllers */,
+				F3F0700024F73D51001F561E /* Assets.xcassets */,
+				F3E6758824FD5D760022DEAB /* noPicture.png */,
+				F3E6758A24FDD4350022DEAB /* Unknown.png */,
+				F3F0700224F73D51001F561E /* LaunchScreen.storyboard */,
+				F3F0700524F73D51001F561E /* Info.plist */,
+				F39F915724F8943400B76487 /* Constants.swift */,
+			);
+			path = CARFAX;
+			sourceTree = "<group>";
+		};
+		F3F0700B24F73D68001F561E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F3F06FFD24F73D4E001F561E /* Main.storyboard */,
+				F39F915324F88CA500B76487 /* CarInfoTableViewCell.swift */,
+				F39F915424F88CA500B76487 /* CarInfoTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F3F0700C24F73D73001F561E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F3F06FFB24F73D4E001F561E /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F3F0700F24F73DC2001F561E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F3F0700D24F73DB8001F561E /* DataManager.swift */,
+				F320231424FAB41F006185D7 /* CarData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3F06FF324F73D4E001F561E /* CARFAX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3F0700824F73D51001F561E /* Build configuration list for PBXNativeTarget "CARFAX" */;
+			buildPhases = (
+				D3EE91EB96B886C59EDCC5A1 /* [CP] Check Pods Manifest.lock */,
+				F3F06FF024F73D4E001F561E /* Sources */,
+				F3F06FF124F73D4E001F561E /* Frameworks */,
+				F3F06FF224F73D4E001F561E /* Resources */,
+				CC12ED953F29CF8915A9D866 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CARFAX;
+			productName = CARFAX;
+			productReference = F3F06FF424F73D4E001F561E /* CARFAX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3F06FEC24F73D4E001F561E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Ferrakkem Bhuiyan";
+				TargetAttributes = {
+					F3F06FF324F73D4E001F561E = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = F3F06FEF24F73D4E001F561E /* Build configuration list for PBXProject "CARFAX" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3F06FEB24F73D4E001F561E;
+			productRefGroup = F3F06FF524F73D4E001F561E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3F06FF324F73D4E001F561E /* CARFAX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3F06FF224F73D4E001F561E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F0700424F73D51001F561E /* LaunchScreen.storyboard in Resources */,
+				F3F0700124F73D51001F561E /* Assets.xcassets in Resources */,
+				F3E6758B24FDD4350022DEAB /* Unknown.png in Resources */,
+				F3E6758924FD5D760022DEAB /* noPicture.png in Resources */,
+				F39F915624F88CA500B76487 /* CarInfoTableViewCell.xib in Resources */,
+				F3F06FFF24F73D4E001F561E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CC12ED953F29CF8915A9D866 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CARFAX/Pods-CARFAX-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CARFAX/Pods-CARFAX-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CARFAX/Pods-CARFAX-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3EE91EB96B886C59EDCC5A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CARFAX-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3F06FF024F73D4E001F561E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39F915524F88CA500B76487 /* CarInfoTableViewCell.swift in Sources */,
+				F3F06FFC24F73D4E001F561E /* ViewController.swift in Sources */,
+				F3F0700E24F73DB8001F561E /* DataManager.swift in Sources */,
+				F320231524FAB41F006185D7 /* CarData.swift in Sources */,
+				F3F06FF824F73D4E001F561E /* AppDelegate.swift in Sources */,
+				F3F06FFA24F73D4E001F561E /* SceneDelegate.swift in Sources */,
+				F39F915824F8943400B76487 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F3F06FFD24F73D4E001F561E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3F06FFE24F73D4E001F561E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3F0700224F73D51001F561E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3F0700324F73D51001F561E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3F0700624F73D51001F561E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3F0700724F73D51001F561E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3F0700924F73D51001F561E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69740F315868A5AB58250D10 /* Pods-CARFAX.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R2PXFCCU7C;
+				INFOPLIST_FILE = CARFAX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ferrakkem.carfax.CARFAX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F3F0700A24F73D51001F561E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A458BDA96C37B1BB59D3E520 /* Pods-CARFAX.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R2PXFCCU7C;
+				INFOPLIST_FILE = CARFAX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ferrakkem.carfax.CARFAX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3F06FEF24F73D4E001F561E /* Build configuration list for PBXProject "CARFAX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3F0700624F73D51001F561E /* Debug */,
+				F3F0700724F73D51001F561E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3F0700824F73D51001F561E /* Build configuration list for PBXNativeTarget "CARFAX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3F0700924F73D51001F561E /* Debug */,
+				F3F0700A24F73D51001F561E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3F06FEC24F73D4E001F561E /* Project object */;
+}
